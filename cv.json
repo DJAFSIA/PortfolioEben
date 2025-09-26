@@ -1,0 +1,241 @@
+{
+  "basics": {
+    "name": "Ebenezer Djafsia",
+    "label": "Ingénieur Informatique / Étudiant Master 2 IoT",
+    "image": "/me_avatar.jpg",
+    "email": "ebenezerdjafsiasb@gmail.com",
+    "phone": "+33 7 80 79 03 32",
+    "url": "https://www.linkedin.com/in/ebenezer-djafsia-25562",
+    "summary": "Ingénieur informatique polyvalent, formé en optimisation, data science, cryptographie, développement web et systèmes embarqués. Spécialisé en Master 2 sur les mises à jour OTA pour objets contraints (BLE / ESP32). Capable d’apprendre rapidement et de contribuer à des projets logiciels, embarqués ou data, avec rigueur et créativité.",
+    "theme": "blue",
+    "location": {
+      "address": "22 Rue des Époux Labrousse",
+      "postalCode": "59650",
+      "city": "Lille",
+      "countryCode": "FR",
+      "region": "Hauts-de-France"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ebenezer-djafsia-25562",
+        "url": "https://www.linkedin.com/in/ebenezer-djafsia-25562"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "IMT Nord Europe",
+      "position": "Stagiaire Recherche (Master 2)",
+      "location_type": "On site",
+      "location": "Lille, France",
+      "startDate": "2025-05-01",
+      "endDate": "2025-10-01",
+      "summary": "Stage de recherche sur les mises à jour OTA pour objets connectés contraints.",
+      "responsibilities": [
+        "Analyse des approches OTA et conception d’un protocole scalable basé sur broadcast BLE.",
+        "Développement de prototype sur ESP32 et simulation de charge.",
+        "Conception du format de fragmentation et stratégie de retransmission.",
+        "Rédaction de méthodologie expérimentale et préparation des jeux de tests."
+      ],
+      "skills": [
+        "IoT",
+        "BLE",
+        "ESP32",
+        "C/C++",
+        "Simulation"
+      ]
+    },
+    {
+      "name": "VINA Media",
+      "position": "Stagiaire en Communication",
+      "location_type": "On site",
+      "location": "Ngaoundéré, Cameroun",
+      "startDate": "2024-12-01",
+      "endDate": "2025-04-01",
+      "summary": "Participation à des actions marketing terrain et digital.",
+      "responsibilities": [
+        "Promotion de produits et distribution de flyers.",
+        "Organisation et participation à des événements."
+      ],
+      "skills": [
+        "Communication",
+        "Marketing digital",
+        "Événementiel"
+      ]
+    },
+    {
+      "name": "AJE – Projet Éco-Citoyen",
+      "position": "Ambassadeur",
+      "location_type": "On site",
+      "location": "Ngaoundéré, Cameroun",
+      "startDate": "2024-08-01",
+      "endDate": "2024-12-01",
+      "summary": "Engagement pour la préservation de l’environnement et la lutte contre le changement climatique.",
+      "responsibilities": [
+        "Sensibilisation aux problématiques environnementales.",
+        "Organisation de séminaires et formations sur l’économie verte et bleue."
+      ]
+    },
+    {
+      "name": "CDTIC – Université de Ngaoundéré",
+      "position": "Stagiaire Développement Web et Mobile",
+      "location_type": "On site",
+      "location": "Ngaoundéré, Cameroun",
+      "startDate": "2023-02-01",
+      "endDate": "2023-07-01",
+      "summary": "Développement d’un système web pour l’attribution de salles.",
+      "responsibilities": [
+        "Développement backend avec Laravel (PHP).",
+        "Gestion de base de données via Eloquent ORM."
+      ],
+      "skills": [
+        "Laravel",
+        "PHP",
+        "SQL",
+        "Backend"
+      ]
+    },
+    {
+      "name": "MTN Cameroun",
+      "position": "Brand Ambassador",
+      "location_type": "Hybrid",
+      "location": "Cameroun",
+      "startDate": "2022-01-01",
+      "endDate": "2024-01-01",
+      "summary": "Représenter et promouvoir la marque MTN.",
+      "responsibilities": [
+        "Gestion d’animations commerciales et d’événements.",
+        "Support technique SIM et fidélisation clients."
+      ]
+    },
+    {
+      "name": "A4D",
+      "position": "Stagiaire Développement Web",
+      "location_type": "Remote",
+      "location": "Ngaoundéré, Cameroun",
+      "startDate": "2021-08-01",
+      "endDate": "2021-12-01",
+      "summary": "Apprentissage et mise en pratique des technologies web.",
+      "responsibilities": [
+        "Développement d’un portfolio et d’un site vitrine.",
+        "Pratique de HTML5, CSS3 et JavaScript."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Université de Ngaoundéré",
+      "area": "Informatique",
+      "studyType": "Master 2",
+      "startDate": "2024-12-01",
+      "endDate": "2025-09-01"
+    },
+    {
+      "institution": "Université de Ngaoundéré",
+      "area": "Informatique",
+      "studyType": "Licence",
+      "startDate": "2022-10-01",
+      "endDate": "2023-07-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programmation",
+      "keywords": ["C", "C++", "Python", "PHP", "HTML", "CSS3", "JavaScript"]
+    },
+    {
+      "name": "Data Science",
+      "keywords": ["Optimisation", "Traitement de données", "Simulation MATLAB"]
+    },
+    {
+      "name": "IoT & Embarqué",
+      "keywords": ["ESP32", "BLE", "OTA", "Systèmes embarqués"]
+    },
+    {
+      "name": "Développement Web",
+      "keywords": ["Laravel", "Django", "SQL", "Backend", "Frontend"]
+    },
+    {
+      "name": "Soft Skills",
+      "keywords": ["Communication", "Adaptabilité", "Autonomie", "Rigueur"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Courant"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Moyen"
+    }
+  ],
+  "interests": [
+    { "name": "Lecture" },
+    { "name": "Musique" },
+    { "name": "Football" },
+    { "name": "Basketball" },
+    { "name": "Réseaux sociaux" }
+  ],
+  "references": [
+    {
+      "name": "Prof. Dr. Ing Paul DAYANG",
+      "reference": "Université de Ngaoundéré – pdayang@univ-ndere.cm"
+    },
+    {
+      "name": "Damien SAMBO",
+      "reference": "Enseignant Chercheur, IMT Nord Europe – damien.sambo@imt-nord-europe.fr"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Prototype OTA sur ESP32",
+      "isActive": true,
+      "description": "Implémentation d’un système de mise à jour logicielle sans fil (OTA) pour objets contraints.",
+      "highlights": [
+        "Fragmentation et reconstitution du firmware",
+        "Vérification via CRC",
+        "Broadcast BLE et gestion des pertes"
+      ],
+      "skills": ["C/C++", "IoT", "ESP32", "BLE"],
+      "github": ""
+    },
+    {
+      "name": "Communication sans fil IoT",
+      "isActive": false,
+      "description": "Expérimentation et optimisation de protocoles radio (BLE) dans des environnements contraints.",
+      "highlights": [
+        "Broadcast BLE",
+        "Scan continu et gestion d’advertising",
+        "Traitement des délais et pertes"
+      ],
+      "skills": ["IoT", "BLE", "Protocoles embarqués"]
+    },
+    {
+      "name": "Système d’attribution de salles",
+      "isActive": true,
+      "description": "Application web universitaire pour gérer l’attribution automatique de salles.",
+      "highlights": [
+        "Développement backend avec Laravel",
+        "Gestion BDD via Eloquent ORM"
+      ],
+      "skills": ["Laravel", "PHP", "SQL"]
+    },
+    {
+      "name": "Portfolio web",
+      "isActive": true,
+      "description": "Création d’un site portfolio personnel.",
+      "highlights": ["Développé avec HTML5, CSS3 et JavaScript"],
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "url": ""
+    },
+    {
+      "name": "Site vitrine d’entreprise",
+      "isActive": false,
+      "description": "Conception d’un site vitrine pour une entreprise locale.",
+      "highlights": ["Mise en avant des services", "Responsive design"],
+      "skills": ["HTML", "CSS", "JavaScript"]
+    }
+  ]
+}

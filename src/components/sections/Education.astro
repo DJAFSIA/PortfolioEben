@@ -1,0 +1,76 @@
+---
+import Section from "../Section.astro";
+import { education, certificates } from "@cv";
+
+const { className } = Astro.props;
+const eduList = education || [];
+const certList = certificates || [];
+---
+
+<Section title="Education" className={className}>
+	{eduList.length > 0 ? (
+		<ul class="space-y-4 py-3 print:space-y-0">
+			{eduList.map(({ institution, startDate, endDate, area, url }) => {
+				const startYear = startDate ? new Date(startDate).getFullYear() : "";
+				const endYear = endDate ? new Date(endDate).getFullYear() : "Actual";
+				const years = startYear && endYear ? `${startYear} - ${endYear}` : "";
+
+				return (
+					<div class="flex items-baseline">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" ... />
+						<div class="relative w-full">
+							<h3 class="mr-6 font-medium">
+								{url ? (
+									<a href={url} target="_blank" class="hover:text-skin-hue underline">
+										{institution}
+									</a>
+								) : (
+									institution
+								)}
+							</h3>
+							<div class="text-sm text-skin-muted">{area}</div>
+							{years && (
+								<time class="right-0 top-0 text-xs text-skin-muted md:absolute">{years}</time>
+							)}
+						</div>
+					</div>
+				);
+			})}
+		</ul>
+	) : (
+		<p class="text-sm text-skin-muted">Aucune formation renseignée.</p>
+	)}
+
+	{certList.length > 0 && (
+		<>
+			<h4>Certificates</h4>
+			<ul class="space-y-4 py-3 print:space-y-0">
+				{certList.map(({ name, date, issuer, url }) => {
+					const certificateYear = date ? new Date(date).getFullYear() : "";
+					return (
+						<div class="flex items-baseline">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" ... />
+							<div class="relative w-full">
+								<h3 class="mr-6 font-medium">
+									{url ? (
+										<a href={url} target="_blank" class="hover:text-skin-hue underline">
+											{name}
+										</a>
+									) : (
+										name
+									)}
+								</h3>
+								<div class="text-sm text-skin-muted">{issuer}</div>
+								{certificateYear && (
+									<time class="right-0 top-0 text-xs text-skin-muted md:absolute">
+										{certificateYear}
+									</time>
+								)}
+							</div>
+						</div>
+					);
+				})}
+			</ul>
+		</>
+	)}
+</Section>
