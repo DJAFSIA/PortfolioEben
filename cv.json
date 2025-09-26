@@ -30,7 +30,7 @@
       "location_type": "On site",
       "location": "Lille, France",
       "startDate": "2025-05-01",
-      "endDate": "2025-10-01",
+      "endDate": "Present",
       "summary": "Stage de recherche sur les mises à jour OTA pour objets connectés contraints.",
       "responsibilities": [
         "Analyse des approches OTA et conception d’un protocole scalable basé sur broadcast BLE.",
