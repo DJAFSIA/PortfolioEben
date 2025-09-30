@@ -2,7 +2,7 @@
   "basics": {
     "name": "Ebenezer Djafsia",
     "label": "Ingénieur Informatique / Étudiant Master 2 IoT",
-    "image": "/me_avatar.jpg",
+    "image": "./me_avatar.jpg",
     "email": "ebenezerdjafsiasb@gmail.com",
     "phone": "+33 7 80 79 03 32",
     "url": "https://www.linkedin.com/in/ebenezer-djafsia-25562",
