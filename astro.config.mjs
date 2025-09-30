@@ -4,9 +4,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://djafsia.github.io',
-  base: 'PortfolioEben' ,
+  base: '/PortfolioEben/',
   trailingSlash: 'always',
   integrations: [tailwind()],
 });
-
-
