@@ -10,7 +10,8 @@ const certList = certificates || [];
 <Section title="Education" className={className}>
 	{eduList.length > 0 ? (
 		<ul class="space-y-4 py-3 print:space-y-0">
-			{eduList.map(({ institution, startDate, endDate, area, url }) => {
+			{eduList.map((edu) => {
+  const { institution, startDate, endDate, area, url } = edu as any;
 				const startYear = startDate ? new Date(startDate).getFullYear() : "";
 				const endYear = endDate ? new Date(endDate).getFullYear() : "Actual";
 				const years = startYear && endYear ? `${startYear} - ${endYear}` : "";
@@ -45,7 +46,8 @@ const certList = certificates || [];
 		<>
 			<h4>Certificates</h4>
 			<ul class="space-y-4 py-3 print:space-y-0">
-				{certList.map(({ name, date, issuer, url }) => {
+				{certList?.map((cert: any) => {
+  	const { name, date, issuer, url } = cert;
 					const certificateYear = date ? new Date(date).getFullYear() : "";
 					return (
 						<div class="flex items-baseline">
