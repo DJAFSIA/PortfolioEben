@@ -171,6 +171,15 @@
       "fluency": "Moyen"
     }
   ],
+  "certificates": [
+  {
+    "name": "Full Stack Web Development",
+    "date": "2023-05-01",
+    "issuer": "Coursera",
+    "url": "https://www.coursera.org/specializations/meta-full-stack-developer?action=enroll&action=enroll"
+  }
+],
+
   "interests": [
     { "name": "Lecture" },
     { "name": "Musique" },
